@@ -47,7 +47,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() +" [" + "id=" + this.getId() + ", nom='" + this.getNom() + ", estFemelle=" + this.getType() +
+        return this.getClass().getSimpleName() +" [" + "id=" + this.getId() + ", nom='" + this.getNom() + ", estFemelle=" + estFemelle +
                 ", type=" + this.getType() + ']';
     }
 }

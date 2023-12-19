@@ -47,6 +47,6 @@ public class Salarie {
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + "[id=" + this.getId() + ", nom= " + this.getNom() + ", prénom=" + this.getPrenom() + ", salaire=" + this.getSalaire() + "]";
+        return this.getClass().getSimpleName() + " [id=" + this.getId() + ", nom= " + this.getNom() + ", prénom=" + this.getPrenom() + ", salaire=" + this.getSalaire() + "]";
     }
 }

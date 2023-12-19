@@ -12,7 +12,7 @@ public class TestsBo {
 		List<Animal> Animals = List.of(
 				new Animal(1, "Simba", false, TypeAnimal.LION),
 				new Animal(2, "Coco", true, TypeAnimal.SINGE),
-				new Animal(3, "Gerald", false, TypeAnimal.GIRAFE),
+				new Animal(3, "Gerald", false, TypeAnimal.GIRAFFE),
 				new Animal(4, "dumbo", true, TypeAnimal.ELEPHANT));
 		System.out.println("Les Animaux");
 		for (Animal animal : Animals) {

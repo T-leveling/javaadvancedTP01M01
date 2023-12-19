@@ -65,7 +65,7 @@ public class Adresse {
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + "[" +
+        return this.getClass().getSimpleName() + " [" +
                 "id=" + this.getId() +
                 ", numero=" + this.getNumero() +
                 ", rue='" + this.getRue() + '\'' +
